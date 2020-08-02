@@ -1,0 +1,176 @@
+.rodape {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@keyframes explode {
+    0% {
+        -webkit-transform: translate(-1vw, -1vh) scale(0.5);
+        transform: translate(-1vw, -1vh)  scale(0.5);
+    }
+    5% {
+        -webkit-transform: translate(0vw, 0vh) scale(0.8);
+        transform: translate(0vw, 0vh)  scale(0.8);
+    }
+    10% {
+        -webkit-transform: translate(1vw, 1vh) scale(1);
+        transform: translate(1vw, 1vh)  scale(1);
+    }
+    15% {
+        -webkit-transform: translate(2vw, 2vh) scale(2);
+        transform: translate(2vw, 2vh)  scale(2);
+    }
+    20% {
+        -webkit-transform: translate(4vw, 4vh) scale(4);
+        transform: translate(4vw, 4vh)  scale(4);
+    }
+    25% {
+        -webkit-transform: translate(8vw, 8vh) scale(6);
+        transform: translate(8vw, 8vh)  scale(6);
+    }
+    30% {
+        -webkit-transform: translate(16vw, 16vh) scale(8);
+        transform: translate(16vw, 16vh)  scale(8);
+    }
+    35% {
+        -webkit-transform: translate(32vw, 32vh) scale(14);
+        transform: translate(32vw, 33vh)  scale(14);
+    }
+    40% {
+        -webkit-transform: translate(42vw, 42vh) scale(16);
+        transform: translate(42vw, 42vh)  scale(16);
+    }
+    45% {
+        -webkit-transform: translate(50vw, 50vh) scale(18);
+        transform: translate(50vw, 50vh)  scale(18);
+    }
+    50% {
+        -webkit-transform: translate(50vw, 50vh) scale(20);
+        transform: translate(50vw, 50vh)  scale(20);
+    }
+    100% {
+        -webkit-transform: translate(50vw, 50vh) scale(100);
+        transform: translate(50vw, 50vh) scale(100);
+    }
+}
+
+.rodape .bolha:nth-child(n) {
+    position: relative;
+    -webkit-animation-iteration-count: infinite!important;
+    animation-iteration-count: infinite!important
+}
+
+.bolha_1 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: blue;
+    top: -2vh;
+    left: -2vw;
+    -webkit-animation: explode 15s linear;
+    animation: explode 15s linear;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.bolha_2 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: blueviolet;
+    top: 102vh;
+    left: -2vw;
+    -webkit-animation: explode 15s linear;
+    animation: explode 15s linear;
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+.bolha_3 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: crimson;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_4 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: darkmagenta;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_5 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: darkturquoise;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_6 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: dimgrey;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_7 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: gold;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_8 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: indigo;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_9 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: lightcoral;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
+
+.bolha_10 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: lime;
+    top: 0;
+    left: 0;
+    //-webkit-animation: explode 28s linear;
+    //animation: explode 28s linear;
+}
